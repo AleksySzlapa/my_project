@@ -1,4 +1,5 @@
 service : {
     "save_chat": (text) -> ();
     "get_chat": () -> (vec text) query;
+    "del_last_chat": () -> ();
 }
